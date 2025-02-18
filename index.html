@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+   <div class="calculator">
+    <section id="output">
+        <div class="display-container">
+            <div id="expression" class="expression-field"></div>
+            <div id="result" class="result-field"></div>
+        </div>
+    </section>
+    <section id="input">
+        <button class="btn light" data-action="clear">C</button>
+        <button class="btn light" data-action="negate">±</button>
+        <button class="btn light" data-action="mod">%</button>
+        <button class="btn operator" data-action="division">/</button>
+
+        <button class="btn dark" data-action="number">7</button>
+        <button class="btn dark" data-action="number">8</button>
+        <button class="btn dark" data-action="number">9</button>
+        <button class="btn operator" data-action="multiplication">×</button>
+
+        <button class="btn dark" data-action="number">4</button>
+        <button class="btn dark" data-action="number">5</button>
+        <button class="btn dark" data-action="number">6</button>
+        <button class="btn operator" data-action="subtraction">−</button>
+
+        <button class="btn dark" data-action="number">1</button>
+        <button class="btn dark" data-action="number">2</button>
+        <button class="btn dark" data-action="number">3</button>
+        <button class="btn operator" data-action="addition">+</button>
+
+        <button class="btn dark" data-action="decimal">.</button>
+        <button class="btn dark" data-action="number">0</button>
+        <button class="btn dark" data-action="backspace">⌫</button>
+        <button class="btn operator" data-action="submit">=</button>
+    </section>
+   </div> 
+</body>
+</html>
